@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://bj60b3lwxnmp5"
+path="res://.godot/imported/goblin_guy_idle.aseprite-6d619c12cef8c0e49acbf506699ed644.res"
+
+[deps]
+
+source_file="res://aseprite_sprites/goblin_guy_idle.aseprite"
+dest_files=["res://.godot/imported/goblin_guy_idle.aseprite-6d619c12cef8c0e49acbf506699ed644.res"]
+
+[params]
+

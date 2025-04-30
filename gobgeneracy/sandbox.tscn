@@ -5,3 +5,4 @@
 [node name="sandbox" type="Node2D"]
 
 [node name="Goblin-dude" parent="." instance=ExtResource("1_3h184")]
+scale = Vector2(5, 5)
