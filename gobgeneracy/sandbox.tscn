@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bw28coqv28h20"]
+
+[ext_resource type="PackedScene" uid="uid://dobux45nws4dj" path="res://goblin-dude.tscn" id="1_3h184"]
+
+[node name="sandbox" type="Node2D"]
+
+[node name="Goblin-dude" parent="." instance=ExtResource("1_3h184")]

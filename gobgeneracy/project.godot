@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="Gobgeneracy"
-config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+run/main_scene="uid://dobux45nws4dj"
+config/features=PackedStringArray("4.4", "Forward Plus")
 
 [aseprite_importers]
 
@@ -20,4 +20,4 @@ aseprite_executable_path="C:\\Program Files (x86)\\Steam\\steamapps\\common\\Ase
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/nklbdev.aseprite_importers/plugin.cfg")
+enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg")
