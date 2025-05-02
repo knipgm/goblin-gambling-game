@@ -16,7 +16,7 @@ func get_input():
 	
 	_update_animation_action(input_direction)
 
-func _physics_process(delta):
+func _physics_process(delta): #btw we never use delta..... maybe multiply
 	get_input()
 	move_and_slide()
 	
