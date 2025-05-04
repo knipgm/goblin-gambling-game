@@ -24,10 +24,6 @@ func _physics_process(delta): #btw we never use delta..... maybe multiply
 	_animation_player.play(_build_animation_text(animation_action, last_direction))
 
 func _update_animation_action(input_direction):
-	
-	#this works but is a gross bandaid and still a little buggy. You can moonwalk and on very rare occasions still get idle_"" bug
-	#atleast the jank is contained to this function
-	
 	var new_direction:=""
 
 	new_direction = _get_direction_text(input_direction.x, input_direction.y)
@@ -44,8 +40,7 @@ func _update_animation_action(input_direction):
 func _get_axis_horiz_text(x):
 	if(abs(x)<.5):
 		return ""
-	#return "right" if x > 0 else "left"
-	return "sideways"
+	return "right" if x > 0 else "left"
 	
 func _get_axis_vert_text(y):
 	if(abs(y)<.5):
