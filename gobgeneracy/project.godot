@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Gobgeneracy"
-run/main_scene="uid://dobux45nws4dj"
+run/main_scene="uid://bw28coqv28h20"
 config/features=PackedStringArray("4.4", "Forward Plus")
 
 [aseprite_importers]

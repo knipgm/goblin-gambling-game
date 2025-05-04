@@ -1,8 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://bw28coqv28h20"]
+[gd_scene load_steps=3 format=3 uid="uid://bw28coqv28h20"]
 
 [ext_resource type="PackedScene" uid="uid://dobux45nws4dj" path="res://goblin-dude.tscn" id="1_3h184"]
+[ext_resource type="PackedScene" uid="uid://ddd0s31ta2vq6" path="res://gob_city.tscn" id="2_cojph"]
 
 [node name="sandbox" type="Node2D"]
 
+[node name="Gob-City" parent="." instance=ExtResource("2_cojph")]
+
 [node name="Goblin-dude" parent="." instance=ExtResource("1_3h184")]
-scale = Vector2(5, 5)
+
+[node name="Camera2D" type="Camera2D" parent="Goblin-dude"]
+zoom = Vector2(3, 3)
